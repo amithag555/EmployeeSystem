@@ -1,0 +1,321 @@
+{
+  "Users": [
+    {
+      "id": 16,
+      "firstName": "Yosi",
+      "lastName": "Hagbi",
+      "gender": "Male",
+      "department": "HR",
+      "address": "Israel",
+      "birthdate": "1964-10-04"
+    },
+    {
+      "id": 17,
+      "firstName": "Mor",
+      "lastName": "Levi",
+      "gender": "Female",
+      "department": "Office",
+      "address": "Israel",
+      "birthdate": "1992-03-10"
+    },
+    {
+      "id": 18,
+      "firstName": "Amit",
+      "lastName": "Cohen",
+      "gender": "Male",
+      "department": "Managment",
+      "address": "Israel",
+      "birthdate": "1994-04-08"
+    },
+    {
+      "id": 19,
+      "firstName": "Yael",
+      "lastName": "Hagbi",
+      "gender": "Female",
+      "department": "Office",
+      "address": "Israel",
+      "birthdate": "1964-04-08"
+    },
+    {
+      "id": 20,
+      "firstName": "Afik",
+      "lastName": "Grad",
+      "gender": "Male",
+      "department": "Managment",
+      "address": "Israel",
+      "birthdate": "1998-04-08"
+    },
+    {
+      "id": 21,
+      "firstName": "Yarden",
+      "lastName": "Grad",
+      "gender": "Female",
+      "department": "Managment",
+      "address": "Israel",
+      "birthdate": "1994-04-16"
+    }
+  ],
+  "trips": [
+    {
+      "id": 1,
+      "destination": "Madrid",
+      "startDate": "2020-05-05",
+      "endDate": "2020-05-09",
+      "totalDays": 4,
+      "travelers": [
+        {
+          "id": 16,
+          "firstName": "Yosi",
+          "lastName": "Hagbi",
+          "gender": "Male",
+          "department": "HR",
+          "address": "Israel",
+          "birthdate": "1964-10-04"
+        },
+        {
+          "id": 17,
+          "firstName": "Mor",
+          "lastName": "Levi",
+          "gender": "Female",
+          "department": "Office",
+          "address": "Israel",
+          "birthdate": "1992-03-10"
+        },
+        {
+          "id": 18,
+          "firstName": "Amit",
+          "lastName": "Cohen",
+          "gender": "Male",
+          "department": "Managment",
+          "address": "Israel",
+          "birthdate": "1994-04-08"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "destination": "London",
+      "startDate": "2020-05-14",
+      "endDate": "2020-05-19",
+      "totalDays": 5,
+      "travelers": [
+        {
+          "id": 16,
+          "firstName": "Yosi",
+          "lastName": "Hagbi",
+          "gender": "Male",
+          "department": "HR",
+          "address": "Israel",
+          "birthdate": "1964-10-04"
+        },
+        {
+          "id": 17,
+          "firstName": "Mor",
+          "lastName": "Levi",
+          "gender": "Female",
+          "department": "Office",
+          "address": "Israel",
+          "birthdate": "1992-03-10"
+        },
+        {
+          "id": 18,
+          "firstName": "Amit",
+          "lastName": "Cohen",
+          "gender": "Male",
+          "department": "Managment",
+          "address": "Israel",
+          "birthdate": "1994-04-08"
+        },
+        {
+          "id": 19,
+          "firstName": "Yael",
+          "lastName": "Hagbi",
+          "gender": "Female",
+          "department": "Office",
+          "address": "Israel",
+          "birthdate": "1964-04-08"
+        },
+        {
+          "id": 20,
+          "firstName": "Afik",
+          "lastName": "Grad",
+          "gender": "Male",
+          "department": "Managment",
+          "address": "Israel",
+          "birthdate": "1998-04-08"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "destination": "China",
+      "startDate": "2020-08-02",
+      "endDate": "2020-08-23",
+      "totalDays": 21,
+      "travelers": [
+        {
+          "id": 16,
+          "firstName": "Yosi",
+          "lastName": "Hagbi",
+          "gender": "Male",
+          "department": "HR",
+          "address": "Israel",
+          "birthdate": "1964-10-04"
+        },
+        {
+          "id": 17,
+          "firstName": "Mor",
+          "lastName": "Levi",
+          "gender": "Female",
+          "department": "Office",
+          "address": "Israel",
+          "birthdate": "1992-03-10"
+        },
+        {
+          "id": 18,
+          "firstName": "Amit",
+          "lastName": "Cohen",
+          "gender": "Male",
+          "department": "Managment",
+          "address": "Israel",
+          "birthdate": "1994-04-08"
+        },
+        {
+          "id": 19,
+          "firstName": "Yael",
+          "lastName": "Hagbi",
+          "gender": "Female",
+          "department": "Office",
+          "address": "Israel",
+          "birthdate": "1964-04-08"
+        },
+        {
+          "id": 20,
+          "firstName": "Afik",
+          "lastName": "Grad",
+          "gender": "Male",
+          "department": "Managment",
+          "address": "Israel",
+          "birthdate": "1998-04-08"
+        },
+        {
+          "id": 21,
+          "firstName": "Yarden",
+          "lastName": "Grad",
+          "gender": "Female",
+          "department": "Managment",
+          "address": "Israel",
+          "birthdate": "1994-04-16"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "destination": "France",
+      "startDate": "2020-07-09",
+      "endDate": "2020-07-13",
+      "totalDays": 4,
+      "travelers": [
+        {
+          "id": 16,
+          "firstName": "Yosi",
+          "lastName": "Hagbi",
+          "gender": "Male",
+          "department": "HR",
+          "address": "Israel",
+          "birthdate": "1964-10-04"
+        },
+        {
+          "id": 17,
+          "firstName": "Mor",
+          "lastName": "Levi",
+          "gender": "Female",
+          "department": "Office",
+          "address": "Israel",
+          "birthdate": "1992-03-10"
+        },
+        {
+          "id": 18,
+          "firstName": "Amit",
+          "lastName": "Cohen",
+          "gender": "Male",
+          "department": "Managment",
+          "address": "Israel",
+          "birthdate": "1994-04-08"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "destination": "Prague",
+      "startDate": "2020-06-14",
+      "endDate": "2020-06-18",
+      "totalDays": 4,
+      "travelers": [
+        {
+          "id": 19,
+          "firstName": "Yael",
+          "lastName": "Hagbi",
+          "gender": "Female",
+          "department": "Office",
+          "address": "Israel",
+          "birthdate": "1964-04-08"
+        },
+        {
+          "id": 20,
+          "firstName": "Afik",
+          "lastName": "Grad",
+          "gender": "Male",
+          "department": "Managment",
+          "address": "Israel",
+          "birthdate": "1998-04-08"
+        },
+        {
+          "id": 21,
+          "firstName": "Yarden",
+          "lastName": "Grad",
+          "gender": "Female",
+          "department": "Managment",
+          "address": "Israel",
+          "birthdate": "1994-04-16"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "destination": "Barcelona",
+      "startDate": "2020-05-28",
+      "endDate": "2020-05-31",
+      "totalDays": 3,
+      "travelers": [
+        {
+          "id": 17,
+          "firstName": "Mor",
+          "lastName": "Levi",
+          "gender": "Female",
+          "department": "Office",
+          "address": "Israel",
+          "birthdate": "1992-03-10"
+        },
+        {
+          "id": 18,
+          "firstName": "Amit",
+          "lastName": "Cohen",
+          "gender": "Male",
+          "department": "Managment",
+          "address": "Israel",
+          "birthdate": "1994-04-08"
+        },
+        {
+          "id": 19,
+          "firstName": "Yael",
+          "lastName": "Hagbi",
+          "gender": "Female",
+          "department": "Office",
+          "address": "Israel",
+          "birthdate": "1964-04-08"
+        }
+      ]
+    }
+  ]
+}

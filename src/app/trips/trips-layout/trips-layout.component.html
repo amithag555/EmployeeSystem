@@ -1,0 +1,4 @@
+<app-trips-form *ngIf="showForm" (newTrip)="addNewTrip($event)"></app-trips-form>
+<app-trips-table (tripToDelete)="deleteTrip($event)" (showFormEvent)="showFormClick()"></app-trips-table> 
+
+

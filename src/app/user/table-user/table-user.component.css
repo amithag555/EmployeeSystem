@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+body {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px
+}
+
+th {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    width: 150px;
+}
+
+td {
+    font-size: 16px;
+}
+
+.mat-paginator {
+    background-color: whitesmoke;
+}

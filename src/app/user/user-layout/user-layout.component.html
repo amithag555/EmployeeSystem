@@ -1,0 +1,6 @@
+<app-form-user *ngIf="showForm" (newUser)="addUser($event)" (updateUser)="updateUser($event)" [userToEdit]='tempUser'>
+</app-form-user>
+
+<app-table-user (showFormEvent)="showFormClick()" (userToEdit)="openFormToEdit($event)"
+    (deleteUser)="deleteUser($event)">
+</app-table-user> 

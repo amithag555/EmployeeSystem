@@ -1,0 +1,50 @@
+<form [formGroup]="userFormGroup" (ngSubmit)="save()">
+  <div>
+    <mat-form-field appearance="legacy">
+      <mat-label>First Name</mat-label>
+      <input type="text" formControlName="firstName" matInput placeholder="Please enter first name">
+      <mat-error *ngIf='userFormGroup.get("firstName").errors?.required && userFormGroup.get("firstName").touched'>
+        first name is required!
+      </mat-error>
+      <mat-error *ngIf='userFormGroup.get("firstName").errors?.minlength && userFormGroup.get("firstName").touched'>
+        first name must be at least 4 characters long!
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="legacy">
+      <mat-label>Last Name</mat-label>
+      <input type="text" formControlName="lastName" matInput placeholder="Please enter last name">
+      <mat-error *ngIf='userFormGroup.get("lastName").errors?.required && userFormGroup.get("lastName").touched'>
+        last name is required!
+      </mat-error>
+    </mat-form-field> 
+
+    <mat-form-field appearance="legacy">
+      <mat-label>Gender</mat-label>
+      <input type="text" formControlName="gender" matInput placeholder="Please enter gender">
+    </mat-form-field>
+    <br>
+
+    <mat-form-field appearance="legacy">
+      <mat-label>Department</mat-label>
+      <mat-select formControlName="department">
+        <mat-option value="HR">HR</mat-option>
+        <mat-option value="Managment">Managment</mat-option>
+        <mat-option value="Office">Office</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="legacy">
+      <mat-label>Address</mat-label>
+      <input type="text" formControlName="address" matInput placeholder="Please enter address">
+    </mat-form-field>
+
+    <mat-form-field appearance="legacy">
+      <mat-label>Birthdate</mat-label>
+      <input type="date" formControlName="birthdate" matInput placeholder="Please enter birthdate">
+    </mat-form-field>
+    <br>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="!userFormGroup.valid">Save</button>
+  </div>
+</form>

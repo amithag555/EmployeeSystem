@@ -1,0 +1,43 @@
+<form [formGroup]="tripsFormGroup" (ngSubmit)="createNewTrip()">
+    <div>
+        <mat-form-field appearance="legacy">
+            <mat-label>Destination</mat-label>
+            <input type="text" formControlName="destination" matInput placeholder="Please enter destination">
+            <mat-error
+                *ngIf='tripsFormGroup.get("destination").errors?.required && tripsFormGroup.get("destination").touched'>
+                destination is required!
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="legacy">
+            <mat-label>Start Date</mat-label>
+            <input type="date" formControlName="startDate" matInput>
+            <mat-error *ngIf='tripsFormGroup.get("startDate").errors?.startShouldBeBiggestThenNow'>
+                start day must be bigger then today!
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="legacy">
+            <mat-label>End Date</mat-label>
+            <input type="date" formControlName="endDate" matInput>
+            <mat-error *ngIf='tripsFormGroup.errors?.startShouldBeSmallerThenEnd'>
+                end day must be bigger then start day!
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="legacy">
+            <mat-label>Travelers</mat-label>
+            <mat-select multiple formControlName="travelers">
+                <mat-option *ngFor="let user of userArr$ | async" [value]="user">{{user.firstName}} {{user.lastName}}
+                </mat-option>
+            </mat-select>
+            <mat-error
+                *ngIf='tripsFormGroup.get("travelers").errors?.required && tripsFormGroup.get("travelers").touched'>
+                travelers is required
+            </mat-error>
+        </mat-form-field>
+        <br>
+
+        <button mat-raised-button color="primary" type="submit" [disabled]="!tripsFormGroup.valid">Add Trip</button>
+    </div>
+</form>

@@ -1,0 +1,22 @@
+<mat-toolbar color='primary'>
+  <mat-toolbar-row>
+    <span>
+      Employee System
+      <mat-icon>computer</mat-icon>
+    </span>
+
+    <span class="spacer"></span>
+
+    <a mat-button routerLink="/user" [routerLinkActive]="'activeClass'">
+      <mat-icon>account_circle</mat-icon>
+      <span> Employees</span>
+    </a>
+
+    <a mat-button routerLink="/trips" [routerLinkActive]="'activeClass'">
+      <mat-icon>flight_takeoff</mat-icon>
+      <span> Trips</span>
+    </a>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
